@@ -11,7 +11,7 @@ Three new features were added to the fact file:
 - **Profit**: This was determined by subtracting Total Product Cost from Sales Amount.
 
 # Techniques Used
-Pyspark was employed for the data preprocessing and visualisation stages. At certain points, the Pyspark DataFrame was converted into a pandas DataFrame in order to utilize seaborn and matplotlib for plotting.
+Pyspark was employed for the data preprocessing and visualisation stages. At certain points, the Pyspark DataFrame was converted into a pandas DataFrame in order to utilise seaborn and matplotlib for plotting.
 
 # Classification
 Logistic regression was applied for classification, using Yearly Income Level as the feature. Logistic regression is efficient for training, simpler to use, and easier to interpret. It does not assume any specific distribution of classes in the feature space and is effective for predicting discrete outcomes.
@@ -21,7 +21,7 @@ Linear regression was used to predict the company’s profit.
 
 # Insights on Customers
 - Female customers earn more on average than male customers.
-- Customers categorised as Management earn the highest average income. Male managers earn slightly more than female professionals, which is also seen among other occupational groups like professionals and manual laborers. However, in various other occupations, females generally earn more.
+- Customers categorised as Management earn the highest average income. Male managers earn slightly more than female professionals, which is also seen among other occupational groups like professionals and manual labourers. However, in various other occupations, females generally earn more.
 - Customers with graduate and bachelor’s degrees earn more than those without a degree. Interestingly, individuals who partially attended college also earn more than those who did not attend college at all.
 - Customers aged 40 to 69 tend to earn more on average, particularly those in the 50–59 age bracket.
 
